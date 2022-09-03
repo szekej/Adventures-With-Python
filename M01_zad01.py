@@ -1,5 +1,8 @@
 from pydoc import plain
 
+# program pobiera od użytkownika tekst,
+# analizując ilość słów i ich średnią długość określa złożoność
+
 text = input("Podaj tekst: ")
 
 flt = filter(str.isalnum,text) #filtruje tylko litery i cyfry
